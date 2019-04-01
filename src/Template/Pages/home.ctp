@@ -130,5 +130,10 @@ oc deploy cakephp-mysql-example --latest
                    </p>
                 <?php endif; ?>
 
+                <h2>User information</h2>
+                <p>request headers:
+               <?php
+                 var_dump($_SERVER);
+                ?>
           </section>
         </div>
