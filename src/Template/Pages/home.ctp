@@ -133,7 +133,7 @@ oc deploy cakephp-mysql-example --latest
                 <h2>User information</h2>
                 <p>request headers:
                <?php
-                 var_dump($_SERVER);
+                 var_export($_SERVER);
                 ?>
           </section>
         </div>
