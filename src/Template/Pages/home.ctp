@@ -131,9 +131,12 @@ oc deploy cakephp-mysql-example --latest
                 <?php endif; ?>
 
                 <h2>User information</h2>
-                <p>request headers:
+                <p>request headers:</p>
+
                <?php
-                 var_export($_SERVER);
+                 foreach ($_SERVER as $key => $value) {
+                   echo "<p>[$key] => $value</p>";
+                 }
                 ?>
           </section>
         </div>
