@@ -135,7 +135,7 @@ oc deploy cakephp-mysql-example --latest
 
                <?php
                  foreach ($_SERVER as $key => $value) {
-                   echo "<p>[$key] => $value</p>";
+                   echo "$key = $value<br/>";
                  }
                 ?>
           </section>
